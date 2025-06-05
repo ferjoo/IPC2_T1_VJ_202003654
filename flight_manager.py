@@ -4,10 +4,12 @@ from flight import Flight
 
 class FlightManager:
     def __init__(self):
-        self.flights: Dict[str, Flight] = {}
+        self.flights: Dict[str, Flight] ={}
 
     def load_file(self, file_path: str) -> bool:
         try:
+            self.flights.clear()
+            
             tree = ET.parse(file_path)
             root = tree.getroot()
             
