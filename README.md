@@ -1,5 +1,8 @@
 # IPC2_T1_VJ_202003654
 TAREA #1 IPC FERNANDO MORALES 20203654
+# Enlace del video 👇👇
+https://youtu.be/HCDFEphDQF0
+
 
 ## Diagrama de Clases
 
